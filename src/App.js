@@ -1,25 +1,28 @@
 import logo from './logo.svg';
 import './App.css';
-
+import UserForm from './components/UserForm';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import { withThemeCreator } from '@material-ui/styles';
+import NavBar from './components/NavBar'
+import Side from './components/Side';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" >
+      
+          
+          <div class="row">
+              <div class="col-4">
+                <Side/>
+              </div>
+              <div class="col-6 demo">
+                <UserForm/>           
+              </div>
+          </div>
+
+      
     </div>
   );
 }
+
 
 export default App;
