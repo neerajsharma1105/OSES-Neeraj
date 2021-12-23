@@ -4,7 +4,7 @@ import UserDetails from './UserDetails'
 import Confirm from './Confirm';
 import Success from './Success';
 import StartApplication from './StartApplication';
-import './UserForm.css';
+import './css/UserForm.css';
 export class UserForm extends Component {
 
     state={

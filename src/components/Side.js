@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import './Side.css'
+import './css/Side.css'
 export class Side extends Component {
     
     render() {
